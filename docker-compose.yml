@@ -1,0 +1,12 @@
+
+services:
+  backend:
+    build: .
+    container_name: ecommerce-backend
+    ports:
+      - "5454:5454"
+    env_file:
+      - .env
+    volumes:
+    - .:/app
+    - /app/node_modules
