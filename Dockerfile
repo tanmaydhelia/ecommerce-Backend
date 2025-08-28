@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5454
 
 # Start the backend
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
